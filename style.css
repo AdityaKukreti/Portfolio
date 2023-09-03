@@ -136,22 +136,21 @@ button:hover{
 
 
 #about-div{
-    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    height: 96vh;
+    gap: 5rem;
 }
 
 #about-head{
-    padding-top: 5%;
-    margin-bottom: 5%;
     text-align: center;
 }
-
 
 #about-content{
     display: flex;
     gap: 5rem;
     justify-content: center;
     margin: 0% 10%;
-    height: 80%;
 }
 
 #abt-pic{
@@ -164,5 +163,53 @@ button:hover{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-bottom: 12%;
+}
+
+#about-photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#edu-head{
+    text-align: center;
+}
+
+#edu-info{
+    display: flex;
+    flex-direction: column;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-radius: 2rem;
+    justify-content: center;
+    align-self: center;
+    width: 80%;
+}
+
+.edu-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    justify-content:left;
+}
+
+.tick-mark{
+    width: 32px;
+    height: 32px;
+}
+
+.edu-div{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#edu-div{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+
+h2{
+    margin: 0 0;
 }
